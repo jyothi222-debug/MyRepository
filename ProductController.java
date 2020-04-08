@@ -16,5 +16,9 @@ public class ProductController {
 	{
 		return ser.getAllProducts();
 	}
+        public List<Product_Jyothi> getProducts2()
+        {
+           return ser.getAllProducts();
+        }
 
 }
